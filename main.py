@@ -720,6 +720,7 @@ async def run():
     
     if PUSHPLUS_TOKEN:
         await push(PUSH_MSG)
+        
 
 
 asyncio.run(run())
